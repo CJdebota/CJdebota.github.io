@@ -1,0 +1,83 @@
+html {
+    margin:0;
+    height: 100vh;
+}
+body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    font-family:'Agency fb';
+    color: black;
+}
+h1 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color:unset;
+}
+
+/*-------------           IDs             --------------------*/
+#title {
+    padding: 5px 0px 5px 5px;
+    font-family:'Karantina', 'Times New Roman';
+    font-size: 3em;
+    color: rgb(197, 161, 3);
+}
+#header {
+    left:0;
+    right:0;
+    top:0;
+    z-index: 1030;
+    background-color: rgb(222, 235, 243);
+    border-bottom: rgb(197, 161, 3) 8px outset;
+}
+
+    /*-------------           Menu           --------------------*/
+    .menu { 
+        background-color:rgba(214, 244, 255, 0.925);
+        color: rgb(197, 161, 3);
+        font-size:1.5em;
+        margin-left: 15%; 
+        margin-right: 15%;
+        margin-top: 0;
+        margin-bottom:5px;
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        box-sizing: border-box;
+        border: goldenrod 2px groove;
+        padding:3px 0px 5px 0px;
+        list-style-type: none;
+        width: 70%;
+    }
+     /*-------------           ----           --------------------*/
+#Logo{
+    height: 35px;
+    width: 35px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#footer {
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgb(222, 235, 243);
+    border-top: rgb(197, 161, 3) 8px outset;
+    text-align: center;
+}
+/*-------------           Class            --------------------*/
+.Linha:hover{
+    color:rgb(155, 137, 34);
+    background-color: rgba(255, 255, 255, 0.959);
+    border: rgb(224, 171, 35) 2px groove;
+}
+#endereco{
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 1.5px;
+}
+
+
+

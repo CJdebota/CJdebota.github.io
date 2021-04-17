@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#primeirapagina {
+    box-sizing: border-box;
+    width: 65%;
+    margin: 15px;
+    text-align: justify;
+}
+#tsegundanoticia {
+    margin: 55px 45px 5px 45px;
+    font-size: 1.8em;
+    color: black;
+    border-top: 4px black solid;
+}
+#psegundanoticia{
+    font-size: 1.2em;
+    margin: 10px 45px 10px 55px;
+    text-align: justify;
+}
+#segunda{
+    width: 35%;
+}
+#sim {
+    margin: 20px 30% 20px 30%;
+    background-color: white;
+    padding: 20px;
+    border: 4px black double;
+    text-align: center;
+}

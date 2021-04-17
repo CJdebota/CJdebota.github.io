@@ -1,0 +1,52 @@
+html {
+    margin:0;
+    height: 100vh;
+}
+body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+/*--------------------Sobre-----------------------*/
+.psobre{
+    letter-spacing: 1.5px;
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 4px;
+}
+.tsobre{
+    font-size: 2em;
+    color: goldenrod;
+}
+.sectionsobre{
+    background-color: rgb(238, 223, 223);
+    color: inherit;
+    box-sizing: border-box;
+    width:70%;
+    height: 898px;
+    padding: 20px;
+    margin: 10px 16px 10px 16px;
+    height:60%;
+    border: 5px rgb(0, 0, 0) groove;
+}
+.sectionlado{
+    background-color: rgb(238, 223, 223);
+    color: rgb(238, 223, 223);
+    box-sizing: border-box;
+    font-size: 0.5em;
+    width: 25%;
+    height: 898px;
+    padding: 10px;
+    margin: 10px 16px 10px 16px;
+    border: 5px rgb(0, 0, 0) groove;
+}  
+#logoclandestina{
+    margin: 10px;
+    width:60%;
+    height:60%;
+    border: 5px goldenrod outset;
+}
