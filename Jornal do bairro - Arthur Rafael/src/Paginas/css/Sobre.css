@@ -23,23 +23,22 @@ main{
     color: goldenrod;
 }
 .sectionsobre{
-    background-color: rgb(238, 223, 223);
+    background-color: rgb(255, 255, 255);
     color: inherit;
     box-sizing: border-box;
     width:70%;
-    height: 898px;
     padding: 20px;
     margin: 10px 16px 10px 16px;
-    height:60%;
+    height:890px;
     border: 5px rgb(0, 0, 0) groove;
 }
 .sectionlado{
-    background-color: rgb(238, 223, 223);
-    color: rgb(238, 223, 223);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     box-sizing: border-box;
     font-size: 0.5em;
     width: 25%;
-    height: 898px;
+    height: 890px;
     padding: 10px;
     margin: 10px 16px 10px 16px;
     border: 5px rgb(0, 0, 0) groove;

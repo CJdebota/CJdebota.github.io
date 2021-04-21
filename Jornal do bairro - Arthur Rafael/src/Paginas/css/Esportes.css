@@ -38,7 +38,7 @@ main{
 .sectioneesportes {
     text-align: center;
     box-sizing: border-box;
-    width: 35%;
+    width: 40%;
     height: 450px;
     background-color: rgb(255, 255, 255);
     color: inherit;
@@ -47,10 +47,10 @@ main{
     border: 5px rgb(0, 0, 0) groove;
 }
 #img1 {
-    width: 390px;
-    height: 290px;
+    width: 90%;
+    height: 300px;
 }
 #gameplaykk {
-    width: 390px;
-    height: 290px;
+    width: 90%;
+    height: 300px;
 }
