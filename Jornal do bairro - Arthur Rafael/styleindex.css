@@ -22,11 +22,11 @@ main {
 }
 #segunda{
     width: 35%;
+    height:auto;
 }
 #sim {
     margin: 20px 30% 20px 30%;
     background-color: white;
-    padding: 20px;
-    border: 4px black double;
-    text-align: center;
+    padding: 0;
+    border: 4px black solid;
 }
