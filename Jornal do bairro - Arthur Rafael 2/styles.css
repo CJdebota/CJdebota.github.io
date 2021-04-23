@@ -1,0 +1,171 @@
+html {
+    margin:0;
+    height: 100vh;
+}
+body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family:'Agency fb';
+    color: black;
+}
+h1 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color:unset;
+}
+main {
+    background-color: rgb(31, 29, 29);
+}
+
+    /*-------------           Menu           --------------------*/
+    .menu { 
+        background-color:rgba(0, 0, 0, 0.758);
+        color: rgb(197, 161, 3);
+        font-size:1.5em;
+        margin-left: 15%; 
+        margin-right: 15%;
+        margin-top: 5px;
+        margin-bottom:10px;
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        box-sizing: border-box;
+        border: rgb(0, 0, 0) 2px groove;
+        padding:3px 0px 5px 0px;
+        list-style-type: none;
+        width: 70%;
+    }
+     /*-------------           ----           --------------------*/
+
+/*-------------           IDs             --------------------*/
+#title {
+    margin: 0px 0px 15px 15px;
+    font-family:'Karantina', 'Times New Roman';
+    font-size: 3em;
+    color: rgb(197, 161, 3);
+}
+#header {
+    padding-top: 15px;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 1030;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: rgb(0, 0, 0, 0.567) 5px solid;
+}
+
+#Logo{
+    float: left;
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#footer {
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: black;
+    border-top: rgb(0, 0, 0, 0.567) 5px solid;
+    text-align: center;
+}
+#endereco{
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 1.5px;
+}
+/*-------------           Class            --------------------*/
+
+    /*-------------           Pseudos            --------------------*/
+    .categorias:hover {
+        color:rgb(255, 255, 255);
+        letter-spacing: 1.5px;
+        font-size: 1.1em;
+    }
+    .Link1:visited {
+        color: gray;
+    }
+    p::selection {
+        background-color: black;
+        color: white;
+    }
+        /*------------------------------------------------------------*/
+        ul {
+            margin: 0;
+            padding:0;
+            display: flex;
+        }
+        ul li {
+            list-style: none;
+            animation: tremeluzir 2s linear infinite;            
+        }
+        @keyframes tremeluzir {
+                0% {
+                    color:rgb(197, 161, 3);
+                    text-shadow: none;
+                }
+                90% {
+                    color: rgb(197, 161, 3);
+                    text-shadow: none;
+                }
+                100% {
+                    color: white;
+                    text-shadow: 0 0 7px rgb(153, 139, 139)
+                }
+        }
+
+        /*---------------------------------*/
+            ul li:nth-child(1) {
+            animation-delay: 0
+            }
+
+            ul li:nth-child(2) {
+                animation-delay: 0.2s;
+            }
+
+            ul li:nth-child(3) {
+                animation-delay: 0.4s;
+            }
+
+            ul li:nth-child(4) {
+                animation-delay: 0.6s;
+            }
+
+            ul li:nth-child(5) {
+                animation-delay: 0.8s;
+            }
+
+            ul li:nth-child(6) {
+                animation-delay: 1s;
+            }
+
+            ul li:nth-child(7) {
+                animation-delay: 1.2s;
+            }
+
+            ul li:nth-child(8) {
+                animation-delay: 1.4s;
+            }
+            ul li:nth-child(9) {
+                animation-delay: 1.6s;
+            }
+            ul li:nth-child(10) {
+                animation-delay: 1.8s;
+            }
+            ul li:nth-child(11) {
+                animation-delay: 2s;
+            }
+        /*------------------------------------------------------------*/
+
+
+
+
+
+
+
