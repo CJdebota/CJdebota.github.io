@@ -1,0 +1,118 @@
+html
+{
+    padding: 0;
+
+}
+body {
+    font-family: 'Agency fb';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 32, 32);
+}
+
+
+/*----------------------------------------------------------------------*/
+
+#creatorbody
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    padding: 10px;
+    background-color: inherit;
+}
+#creator 
+{
+    background-color: rgb(32, 32, 32);
+    color:white;
+    border: 0.9px double white;
+    margin: 1%;
+    padding: 5px 3px 5px 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7em;
+}
+#creator:hover
+{
+    background-color: white;
+    color: rgb(32, 32, 32);
+    border: 0.9 double white;
+}
+#addmusica
+{
+    margin: 5px;
+    background-color: inherit;
+    color: white;
+}
+#addautor
+{
+    margin: 5px;
+    background-color: inherit;
+    color: white;
+    
+}
+/*-----------------------------------------------------------------------------------*/
+
+#wall
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.quadro
+{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    width: 15%;
+    box-sizing: content-box;
+    text-align: justify;
+    height: auto;
+    margin: 1%;
+    padding: 15px;
+}
+.quadro:hover
+{
+    box-shadow: -2px 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(0, 255, 170);
+}
+.musica
+{
+    font-size: 1.7em;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.autor
+{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding-bottom: 7.5px;
+}
+
+.quadro2
+{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    width: 230px;
+    box-sizing: content-box;
+    text-align: justify;
+    height: auto;
+    margin: 10px;
+    padding: 15px;
+}
+.quadro2:hover
+{
+    box-shadow: -2px 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(0, 255, 170);
+}
+.musica2
+{
+    font-size: 1.7em;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.autor2
+{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding-bottom: 7.5px;
+}

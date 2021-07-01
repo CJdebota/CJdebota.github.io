@@ -1,0 +1,119 @@
+h1
+{
+    margin: 0;
+}
+a 
+{
+    text-decoration: none;
+    color: unset;
+}
+header
+{
+    margin:0;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-bottom: 4px groove black;
+}
+#g2
+{
+    margin:0;
+    font-family: 'Kdam Thmor';
+    font-size: 32px;
+}
+#g3
+{
+    width: 24.5px;
+    height: 24.5px;
+}
+#g4
+{
+    display: flex;
+}
+#g5 { 
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color: inherit;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    padding:3px 0px 5px 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    width: 80%;
+    height: 40px;
+    border-top: 2px groove black;
+    border-bottom: 2px groove black;
+    animation: menueffect 3s linear infinite;
+}
+
+
+@keyframes menueffect {
+    0% {
+        color:rgb(255, 255, 255);
+        text-shadow: 0 0 7px rgb(0, 0, 0);
+    }
+    60% {
+        color: rgb(75, 75, 75);
+        text-shadow: 0 0 7px rgb(0, 0, 0);
+    }
+    70% {
+        color: rgb(44, 44, 44);
+        text-shadow: 0 0 7px rgb(0, 0, 0);
+    }
+    80% {
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 7px rgb(0, 0, 0);
+    }
+    100% {
+        color:rgb(255, 255, 255);
+        text-shadow: 0 0 7px rgb(0, 0, 0);
+    }
+}
+    ul li:nth-child(1) {
+    animation-delay: 0.75s;
+    }
+
+    ul li:nth-child(2) {
+        animation-delay: 1.5s;
+    }
+
+    ul li:nth-child(3) {
+        animation-delay: 2.25s;
+    }
+
+    ul li:nth-child(4) {
+        animation-delay: 3s;
+    }
+
+
+.g6
+{
+    font-size: 1.5em;
+}
+.g6:hover 
+{
+    color: black;
+    letter-spacing: 1.5px;
+    font-size: 1.7em;
+}
+#footer 
+{
+    left:0;
+    right:0;
+    bottom:0;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-top: rgb(0, 0, 0) 3px solid;
+    text-align: center;
+}
+#info
+{
+    margin: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
