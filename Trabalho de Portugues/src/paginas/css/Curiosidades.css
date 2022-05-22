@@ -1,0 +1,70 @@
+html
+{
+    margin:0;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+}
+body 
+{
+    margin:0;
+    height: 100%;
+    font-family: 'Agency fb';
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+}
+.Mundo 
+{
+    right: 0;
+    left: 0;
+    background-image: url("../../img/Confia.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.container 
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 2.5%;
+}
+.section
+{
+    box-sizing:content-box;
+    font-size: 0.8em;
+    width: 20%;
+    height: 250px;
+    color: white;
+    padding:0;
+    margin: 10px 2.5% 10px 2.5%;
+    border-bottom: 1px white solid;
+}
+.pone
+{
+    height: 235px;
+    text-align:justify;
+    letter-spacing: 2.3px;
+    color:inherit;
+    font-family: inherit; 
+    font-size:1.4em;
+}
+.Hmaior
+{
+    margin: 0;
+    height: 72px;
+    font-size: 2em;
+    padding-bottom:2.5px;
+    border-bottom: 0.8px solid white;
+}
+a
+{
+    text-decoration: none;
+    color:unset;
+}

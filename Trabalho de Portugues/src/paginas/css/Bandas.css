@@ -1,0 +1,58 @@
+html
+{
+    margin:0;
+    height: 100vh;
+}
+body 
+{
+    margin:0;
+    height: 100%;
+    font-family: 'Agency fb';
+    background-color: rgb(255, 255, 255);
+}
+.espaço 
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.coluna
+{
+    display: flex;
+    flex-direction: column;
+    width: 16.5%;
+    margin: 20px;
+    box-sizing: content-box;
+}
+.quadro 
+{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    box-sizing: content-box;
+    text-align: justify;
+    height: auto;
+    margin-top: 4%;
+    margin-right: 2%;
+    padding: 15px;
+}
+.quadro:hover
+{
+    box-shadow: -2px 4px 8px 0 rgb(59, 255, 85), 0 6px 20px 0 rgb(2, 255, 171);
+}
+
+.banda
+{
+    font-size: 1.7em;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.descriçao 
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+/*-----------------------------------------------------------*/

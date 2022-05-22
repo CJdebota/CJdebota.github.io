@@ -1,0 +1,185 @@
+html
+{
+    margin:0;
+    height: 100vh;
+}
+body {
+    margin:0;
+    height: 100%;
+    font-family: 'Agency fb';
+    background-color: rgb(10, 10, 10);
+}
+a 
+{
+    text-decoration: none;
+    color:unset;
+}
+main {
+    align-items: center;
+}
+/*--------------------------------------------------------*/
+header
+{
+    margin:0;
+    padding: 8px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+}
+#a2
+{
+    margin:0;
+    font-family: 'Kdam Thmor';
+    font-size: 32px;
+}
+#a3
+{
+    width: 24.5px;
+    height: 24.5px;
+}
+#a4
+{
+    display: flex;
+}
+#a5 { 
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color: inherit;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    padding:3px 0px 5px 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    width: 80%;
+    height: 40px;
+    border-top: 2px groove rgb(255, 255, 255);
+    border-bottom: 2px groove rgb(255, 255, 255);
+    animation: menueffect 3s linear infinite;
+}
+@keyframes menueffect {
+    0% {
+        color:rgb(255, 255, 255);
+        text-shadow: 0 0 7px black;
+    }
+    90% {
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 7px black;
+    }
+    100% {
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 7px black;
+    }
+}
+    ul li:nth-child(1) {
+    animation-delay: 0.75s;
+    }
+
+    ul li:nth-child(2) {
+        animation-delay: 1.5s;
+    }
+
+    ul li:nth-child(3) {
+        animation-delay: 2.25s;
+    }
+
+    ul li:nth-child(4) {
+        animation-delay: 3s;
+    }
+
+.a6
+{
+    font-size: 1.5em;
+}
+.a6:hover 
+{
+    color: black;
+    letter-spacing: 1.5px;
+    font-size: 1.7em;
+}
+.a7
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section
+{
+    box-sizing:content-box;
+    font-size: 0.8em;
+    width: 20%;
+    height: fit-content;
+    color: white;
+    padding:0;
+    margin: 10px 2.5% 10px 2.5%;
+    border-bottom: 2px white solid;
+}
+.a9
+{
+    margin: 0;
+    height: 68px;
+    font-size: 2em;
+    padding-bottom:2.5px;
+    text-align: center;
+    color: white;
+}
+.a10
+{
+    margin: 0;
+    height: 60px;
+    font-size: 2em;
+    padding-bottom:2.5px;
+    border-bottom: 2px solid white;    
+}
+.a10b
+{
+    margin: 0;
+    height: 100%;
+    font-size: 2em;
+    padding-bottom:2.5px;
+    border-bottom: 2px solid white;    
+}
+.a11
+{
+    height: fit-content;
+    text-align:justify;
+    letter-spacing: 2.5px;
+    color: white;
+    font-family: inherit; 
+    font-size:1.4em;
+}
+.a12
+{
+    margin: 2.5% 5% 5% 5%;
+    width: 85%;
+    background-color: rgb(43, 43, 43);
+    border: 3px solid rgb(110, 110, 110);
+    border-radius: 2em;
+    padding: 30px 10px 30px 10px;
+    box-shadow: -2px 4px 8px 0 rgb(0 233 0 / 90%), 0 6px 20px 0 rgb(0 211 32 / 80%);
+}
+#footer 
+{
+    left:0;
+    right:0;
+    bottom:0;
+    padding: 15px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+    border-top: rgb(255, 255, 255) 3px solid;
+    text-align: center;
+}
+#info
+{
+    margin: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
